@@ -8,7 +8,7 @@ class BusinessesController < ApplicationController
   private
 
   def business_params
-    params.require(:business).permit(:name, :type, :stings, :buzzes, :phone_number :zip_code)
+    params.require(:business).permit(:name, :type, :stings, :buzzes, :phone_number, :zip_code)
   end
 
   def review_params
