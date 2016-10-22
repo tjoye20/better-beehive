@@ -7,7 +7,9 @@ class ReviewsController < ApplicationController
 
   def show
     @business = Business.find(params[:id])
-    render json: @business
+    @reviews = @businesses.reviews
+    
+    render json: @business, @reviews
   end
 
 end
