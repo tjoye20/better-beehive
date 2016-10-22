@@ -27,3 +27,8 @@ Review.create(business_id: 1, feedback_type: ["accessiblity", "empowerment", "in
 Review.create(business_id: 2, feedback_type: ["accessiblity", "empowerment"] , relationship_type: ["self", "parent/guardian"], feedback_comment: "There is a sign on the front door that states 'Allergies? Allergens are present in this location and we cannot guarantee any item to be allergen free'.  To see this made me feel like if I wasn't willing to deal with the side affects of ones allergy, meant that I had to get back In my car and move on.
 ")
 Review.create(business_id: 3, feedback_type: ["accessiblity"], relationship_type: ["self", "parent/guardian"], feedback_comment: "They sucked.")
+
+Review.create(business_id: 4, feedback_type: ["accessiblity"], relationship_type: ["self", "parent/guardian"], feedback_comment: "Great ramps for my daughter's wheel chair.")
+Review.create(business_id: 5, feedback_type: ["accessiblity"], relationship_type: ["self", "parent/guardian"], feedback_comment: "When the doctor came in wearing a hood and holding a scythe, I grabbed my daughter and left.")
+Review.create(business_id: 6, feedback_type: ["accessiblity"], relationship_type: ["self", "professional"], feedback_comment: "Industry magazine ranked the nurses as the best in Central Texas.")
+
