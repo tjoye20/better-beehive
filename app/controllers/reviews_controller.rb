@@ -1,7 +1,7 @@
 class ReviewsController < ApplicationController
 
   def search
-    @businesses = Business.find_by(business_type: params[:type])
+    @businesses = Business.where(business_type: params[:type])
     render json: @businesses
   end
 
