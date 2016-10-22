@@ -1,8 +1,5 @@
 class ReviewsController < ApplicationController
 
-  def index
-  end
-
   def search
     @businesses = Business.find_by(type: params.type)
     render json: @businesses

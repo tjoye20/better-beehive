@@ -6,4 +6,5 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Business.create(name)
+Business.create(name: "Waterloo Medical Center", type: "", buzzes: 10, phone_number: "555-555-5555",
+                special_events: "", address: "260 Sheridan Ave., Suite B20", zip_code: "94306")
