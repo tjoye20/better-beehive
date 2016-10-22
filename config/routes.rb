@@ -3,9 +3,9 @@ Rails.application.routes.draw do
 
   resources :reviews, only: [:show] do
     collection do
-      post :search
+      get :search
     end
-  end 
+  end
 
   resources :businesses, only: [:create]
 
