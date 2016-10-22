@@ -8,8 +8,14 @@ class ReviewsController < ApplicationController
   def show
     @business = Business.find(params[:id])
     @reviews = @businesses.reviews
-    
-    render json: @business, @reviews
+
+    format.json {
+      render :json => {
+      :business => @business,
+      :reviews => @reviews
+      }
+    }
+    # render json: @business, @reviews
   end
 
 end
