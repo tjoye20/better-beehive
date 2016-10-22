@@ -1,4 +1,10 @@
-# README
+# Better Beehive
+
+Better Beehive is a ReactJS-Rails app that 
+
+### This repository is the Rails API for the ReactJS frontend.
+
+
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
