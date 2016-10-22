@@ -18,6 +18,6 @@ module Betterbeehive
         resource '*', :headers => :any, :methods => [:get, :post, :options, :delete, :put, :patch], credentials: true
       end
     end
-    
+
   end
 end
