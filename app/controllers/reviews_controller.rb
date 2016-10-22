@@ -7,18 +7,17 @@ class ReviewsController < ApplicationController
 
   def show
     @business = Business.find(params[:id])
-    binding.pry
     @reviews = @business.reviews
 
     respond_to do |format|
-      format.js do
+      format.json do
         render :json => {
           :business => @business,
           :reviews => @reviews
         }
       end
     end
-    
+
   end
 
 end
