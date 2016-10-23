@@ -7,8 +7,8 @@ class BusinessesController < ApplicationController
     respond_to do |format|
       format.json do
         render :json => {
-          :business = @business,
-          :reviews = @review
+          :business => @business,
+          :reviews => @review
         }
       end
     end
