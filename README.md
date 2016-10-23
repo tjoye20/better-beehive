@@ -1,30 +1,5 @@
 # Better Beehive
 
-Better Beehive is a ReactJS-Rails app that 
+Better Beehive is a ReactJS-Rails app that allows users with "different-abilities" to find businesses that are accessible to them, based on submitted reviews of various businesses from other users.
 
 ### This repository is the Rails API for the ReactJS frontend.
-
-
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
