@@ -4,15 +4,15 @@ class BusinessesController < ApplicationController
     @business = Business.create(business_params)
     @review = @business.reviews.create(review_params)
 
-    respond_to do |format|
-      format.json do
-        render :json => {
-          :business = @business,
-          :reviews = @review
-        }
-      end
-    end
-  end
+  #   respond_to do |format|
+  #     format.json do
+  #       render :json => {
+  #         :business = @business,
+  #         :reviews = @review
+  #       }
+  #     end
+  #   end
+  # end
 
   private
 
