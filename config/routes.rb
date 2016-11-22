@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   resources :reviews, only: [:show], defaults: { format: 'json' } do
     collection do
       get :search
+      get :new_search
+      get :results 
     end
   end
 
