@@ -4,7 +4,7 @@ Better Beehive is a ReactJS-Rails app that allows users to see how accessible bu
 
 Users are also able to search for, and submit a review for a business.
 
-### This repository is the Rails API for the [ReactJS frontend](https://github.com/tjoye20/better-beehive-1).
+### This repository is the Rails API for the [ReactJS frontend](https://github.com/ajthorne/better-beehive).
 
 ### Installation
 To install the app to your local computer run
