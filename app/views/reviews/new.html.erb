@@ -1,1 +1,4 @@
-<h>hello world!</h>
+<%= form_tag(search_reviews_path, method: "get") do %>
+   <%= text_field_tag(:search) %>
+   <%= submit_tag("Search") %>
+ <% end %>
