@@ -1,7 +1,9 @@
 class ReviewsController < ApplicationController
 
   def search
-    search = params[:search].split(" ").join("+")
+    if params[:search]
+      search = params[:search].split(" ").join("+")
+    end 
     businesses_by_type = Business.where(business_type: params[:type])
     respond_to do |format|
       format.json do
